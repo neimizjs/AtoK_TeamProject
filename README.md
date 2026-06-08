@@ -2,7 +2,7 @@
 
 * Made by AtoK(김도환, 강준수, 김재홍, 신동훈)
 * 플랫폼: 언리얼 엔진 5.7.4
-* 씬 위치:
+* 씬 위치: Content-Programmer-KJH-Title.umap
 
 ## 게임 방식
 
