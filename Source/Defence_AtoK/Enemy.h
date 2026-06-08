@@ -27,8 +27,7 @@ protected:
 	//사망시 얻는 돈
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stat")
 	int DropMoney = 100;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	USceneComponent* MissileTarget;
+
 public:
 	/** 
 	 * 언리얼 내장 데미지 수신 함수 

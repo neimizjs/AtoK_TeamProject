@@ -60,9 +60,7 @@ void AEnemy::Die()
 
 	Destroy(); 
 }
-MissileTarget = CreateDefaultSubobject<USceneComponent>(TEXT("MissileTarget"));
-MissileTarget->SetupAttachment(RootComponent);
-MissileTarget->SetRelativeLocation(FVector(0.f, 0.f, 100.f));
+
 void AEnemy::HandleDestruction()
 {
 	AMyGameMode* GameMode = Cast<AMyGameMode>(UGameplayStatics::GetGameMode(GetWorld()));
